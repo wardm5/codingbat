@@ -9,3 +9,12 @@
 public boolean nearHundred(int n) {
   return !(n > 210 || (n < 190 && n > 110) || n < 90);
 }
+
+
+// public boolean nearHundred(int n) {
+//   if (n >= 90 && n <= 110)
+//     return true;
+//   if (n >= 190 && n <= 210)
+//     return true;
+//   return false;
+// }
